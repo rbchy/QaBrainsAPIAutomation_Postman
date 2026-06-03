@@ -1,4 +1,14 @@
-# QaBrainsAPIAutomation_Postman
+# # QaBrainsAPIAutomation_Postman API Testing
+
+![Postman](https://img.shields.io/badge/Postman-orange?logo=java)
+![Newman](https://img.shields.io/badge/Newman-43B02A?logo=Newman)
+![Javascript](https://img.shields.io/badge/JavaScript-brightgreen?logo=JavaScript)
+![Node.js](https://img.shields.io/badge/Node.Js-Cloud-E2231A?logo=Node.JS)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+**Author:** Ranajit Baran Chowdhury — Software Programmer & QA Automation Engineer
+**Email:** chyranajit@gmail.com
+**GitHub:** [@ranajitchowdhury](https://github.com/ranajitchowdhury)
 
 > A production-grade API test automation framework built with **Postman** and **Newman** to validate the complete RESTful service layer of the **QaBrains** platform. This project demonstrates dual expertise in **software engineering** and **API quality assurance** — implementing structured collection architecture, dynamic request chaining, data-driven validation, and CI/CD-ready execution pipelines that mirror enterprise delivery standards.
 
