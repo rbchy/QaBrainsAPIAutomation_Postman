@@ -1,0 +1,14 @@
+{
+  "name": "qabrains-api-automation-postman",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Postman collection for practice.qabrains.com, run headless with Newman",
+  "scripts": {
+    "test": "newman run QAbrainsAutomation_API.postman_collection.json -e environments/QaBrains_Practice.postman_environment.json --folder \"Practice Site Pages\" -r cli,htmlextra,junit --reporter-htmlextra-export reports/newman-report.html --reporter-junit-export reports/newman-junit.xml",
+    "test:all": "newman run QAbrainsAutomation_API.postman_collection.json -e environments/QaBrains_Practice.postman_environment.json -r cli"
+  },
+  "devDependencies": {
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
